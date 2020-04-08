@@ -3,8 +3,8 @@ var readline = require('readline-sync');
 var fs = require('fs');
 
 binance.options({
-  APIKEY: 'PNjcJzVB7SAtybi3EUCq0XWbzHYxaKlH3ne1R5pSlHprAuU4ZIibSgF9D1eRW0x0',
-  APISECRET: 'NOGeT49i6ktzzPWM6mP490EE87Eafjx7FmJ7qzlTCgqELMTgDs5oGSF5v3vLFRhh',
+  APIKEY: APIKEY,
+  APISECRET: APISECRET,
   useServerTime: true, // If you get timestamp errors, synchronize to server time at startup
   // test: true // If you want to use sandbox mode where orders are simulated
 });
